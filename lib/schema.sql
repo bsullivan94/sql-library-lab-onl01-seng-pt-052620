@@ -9,3 +9,13 @@ CREATE TABLE subgenres (
 id INTEGER PRIMARY KEY,
 name TEXT
 );
+
+CREATE TABLE authors (
+name TEXT
+);
+
+CREATE TABLE books (
+title TEXT,
+year INTEGER,
+series_id INTEGER
+);
